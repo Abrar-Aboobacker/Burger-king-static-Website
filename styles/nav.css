@@ -1,0 +1,82 @@
+
+.navigation-bar{
+    background-color:rgb(245, 235, 220) ;
+    display: flex;
+    flex-direction: row;
+    height: 78px;
+    width: 100%;
+    justify-content: space-between; 
+    position: fixed;
+}
+.nav-left-section{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+.threeline-menu{
+    height: 23px;
+    margin-left: 25px;
+    cursor: pointer;
+    
+}
+
+.nav-button{
+    font-weight: bold;
+    color:rgb(80, 35, 20) ;
+    background-color: rgb(245, 235, 220);
+    border: none;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+}
+.nav-button:hover{
+    color: rgb(161, 27, 0);
+}
+.nav-middle-section{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+
+}
+.icon{
+    height: 68px;
+    cursor: pointer;
+}
+.nav-right-section{
+   display: flex;
+    width: 636px;
+    align-items: center;
+}
+.item-availability{
+    color:  rgb(80, 35, 20);
+
+}
+.location{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.location:hover{
+    text-decoration: none;
+}
+
+.cart-button, 
+.signup-button{
+ color:  rgb(245, 235, 220);
+ border: none;
+ border-radius: 30px;
+ padding: 10px 30px 10px 30px;
+ margin: 15px ;
+ cursor: pointer;
+}
+.signup-button{
+    background-color: rgb(201, 37, 4);
+    transition: 0.15s;
+}
+.signup-button:hover{
+    background-color:rgb(140, 26, 4) ;
+}
+.cart-button{
+    background-color: rgb(80, 35, 20) ;
+}
